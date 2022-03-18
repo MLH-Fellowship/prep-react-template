@@ -34,24 +34,13 @@ input {
 
 /* For Mobile */
 @media screen and (max-width: 540px) {
-  body {
-    background-color: red;
-  }
   input {
     width: 75%;
-
-  }
-  
-  .Results {
   }
 }
 
 /* For Tablets */
 @media screen and (min-width: 540px) and (max-width: 780px) {
-  body {
-    background-color: pink;
-  }
-
   input {
     width: 65%;
   }
