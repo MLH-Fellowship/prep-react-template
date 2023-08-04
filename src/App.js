@@ -14,7 +14,6 @@ function App() {
       navigator.geolocation.getCurrentPosition(
         (position) => {
           const { latitude, longitude } = position.coords;
-          console.log([position.coords]);
           fetchWeatherByCoordinates(latitude, longitude);
         },
         (error) => {
