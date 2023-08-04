@@ -29,4 +29,17 @@ input {
   padding: 10px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+.search {
+  color: #fff; 
+  background: transparent;
+  padding: 8px 10px;
+  margin: 5px; 
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; 
+}
 
+.search:hover {
+  background-color: #034c9acb;
+}
